@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tostatronic/Projects/Flores_API/Flores_API/Flores_API.csproj": {}
+    "/Users/tostatronic/Documents/GitHub/Flores_API/Flores_API/Flores_API/Flores_API.csproj": {}
   },
   "projects": {
-    "/Users/tostatronic/Projects/Flores_API/Flores_API/Flores_API.csproj": {
+    "/Users/tostatronic/Documents/GitHub/Flores_API/Flores_API/Flores_API/Flores_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tostatronic/Projects/Flores_API/Flores_API/Flores_API.csproj",
+        "projectUniqueName": "/Users/tostatronic/Documents/GitHub/Flores_API/Flores_API/Flores_API/Flores_API.csproj",
         "projectName": "Flores_API",
-        "projectPath": "/Users/tostatronic/Projects/Flores_API/Flores_API/Flores_API.csproj",
+        "projectPath": "/Users/tostatronic/Documents/GitHub/Flores_API/Flores_API/Flores_API/Flores_API.csproj",
         "packagesPath": "/Users/tostatronic/.nuget/packages/",
-        "outputPath": "/Users/tostatronic/Projects/Flores_API/Flores_API/obj/",
+        "outputPath": "/Users/tostatronic/Documents/GitHub/Flores_API/Flores_API/Flores_API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tostatronic/.nuget/NuGet/NuGet.Config"

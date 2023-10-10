@@ -5,7 +5,7 @@
 const char *ssid = "Tostatronic_Guest";
 const char *password = "Tosta19951$";
 
-String user_agent = "Mozilla/5.0 Gecko/20100101";
+//String user_agent = "Mozilla/5.0 Gecko/20100101";
 
 void setup() {
   Serial.begin(115200);
@@ -26,10 +26,10 @@ void loop() {
     // URL del servidor al que enviarás los datos
     
     //http.begin("http://192.168.68.113:5249/api/Mediciones/Create/");
-    http.begin("http://143.198.173.21:5249/api/Products/");
-    http.setUserAgent(user_agent);
+    http.begin("http://192.168.100.29:5249/api/Mediciones/Create/");
+    //http.setUserAgent(user_agent);
     
-    /*http.addHeader("Content-Type", "application/json");
+    http.addHeader("Content-Type", "application/json");
     
     // Crear el objeto JSON
     DynamicJsonDocument doc(1024);
@@ -42,10 +42,10 @@ void loop() {
     
     // Convertir el objeto JSON a String
     String requestBody;
-    serializeJson(doc, requestBody);*/
+    serializeJson(doc, requestBody);
     
     // Enviar el POST request
-    int httpResponseCode = http.GET();
+    int httpResponseCode = http.POST(requestBody);
 
     if (httpResponseCode > 0) {
       Serial.print("HTTP Response code: ");
